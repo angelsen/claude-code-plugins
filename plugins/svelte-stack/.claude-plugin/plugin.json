@@ -1,20 +1,20 @@
 {
 	"name": "svelte-stack",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "Svelte development LSP stack - svelte, typescript, tailwind, eslint",
 	"author": {
 		"name": "Fredrik Angelsen"
 	},
 	"lspServers": {
 		"svelte": {
-			"command": "/usr/bin/svelteserver",
+			"command": "svelteserver",
 			"args": ["--stdio"],
 			"extensionToLanguage": {
 				".svelte": "svelte"
 			}
 		},
 		"typescript": {
-			"command": "/usr/bin/tsserver",
+			"command": "tsserver",
 			"args": ["--stdio"],
 			"extensionToLanguage": {
 				".ts": "typescript",
@@ -24,7 +24,7 @@
 			}
 		},
 		"tailwindcss": {
-			"command": "/usr/bin/tailwindcss-language-server",
+			"command": "tailwindcss-language-server",
 			"args": ["--stdio"],
 			"extensionToLanguage": {
 				".css": "css",
@@ -33,7 +33,7 @@
 			}
 		},
 		"eslint": {
-			"command": "/usr/bin/vscode-eslint-language-server",
+			"command": "vscode-eslint-language-server",
 			"args": ["--stdio"],
 			"extensionToLanguage": {
 				".js": "javascript",
