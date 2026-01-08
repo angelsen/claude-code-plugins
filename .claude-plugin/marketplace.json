@@ -1,0 +1,22 @@
+{
+	"name": "angelsen-plugins",
+	"owner": {
+		"name": "Fredrik Angelsen",
+		"email": "fredrikangelsen@gmail.com"
+	},
+	"metadata": {
+		"description": "Personal Claude Code plugin marketplace - LSPs, commands, agents, and tools"
+	},
+	"plugins": [
+		{
+			"name": "conform-lsp",
+			"source": "./plugins/conform-lsp",
+			"description": "Conform LSP for Svelte/Chameleon pattern enforcement"
+		},
+		{
+			"name": "svelte-stack",
+			"source": "./plugins/svelte-stack",
+			"description": "Svelte development LSP stack (svelte, typescript, tailwind, eslint)"
+		}
+	]
+}
