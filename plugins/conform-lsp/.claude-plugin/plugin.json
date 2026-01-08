@@ -1,6 +1,6 @@
 {
 	"name": "conform-lsp",
-	"version": "0.3.1",
+	"version": "0.4.0",
 	"description": "Conform LSP for Svelte/Chameleon pattern enforcement",
 	"author": {
 		"name": "Fredrik Angelsen"
@@ -10,7 +10,7 @@
 			"command": "node",
 			"args": ["${CLAUDE_PLUGIN_ROOT}/dist/conform-server.cjs", "--stdio"],
 			"extensionToLanguage": {
-				".svelte": "svelte"
+				".svelte": "svelte-conform"
 			}
 		}
 	}
