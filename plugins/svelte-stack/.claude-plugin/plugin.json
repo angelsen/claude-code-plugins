@@ -1,6 +1,6 @@
 {
 	"name": "svelte-stack",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Svelte development LSP stack - svelte, typescript, tailwind, eslint",
 	"author": {
 		"name": "Fredrik Angelsen"
@@ -16,11 +16,6 @@
 		"typescript": {
 			"command": "typescript-language-server",
 			"args": ["--stdio"],
-			"initializationOptions": {
-				"tsserver": {
-					"path": "tsserver"
-				}
-			},
 			"extensionToLanguage": {
 				".ts": "typescript",
 				".tsx": "typescriptreact",
