@@ -38366,6 +38366,7 @@ connection.onInitialize(() => {
 connection.onInitialized(() => {
   connection.console.log("conform LSP server initialized");
 });
+connection.onHover(() => null);
 documents.onDidChangeContent((change) => {
   const document = change.document;
   if (!document.uri.endsWith(".svelte")) {
